@@ -1,0 +1,102 @@
+#topBar{
+    position: sticky;
+    background-color: #660000;
+    color: #FFFFFF;
+}
+#infoBox{
+    float: left;
+}
+#infoHeader{
+    background-color: #ec9c9c;
+    color: #1A0000;
+    border-radius: 70% 0% 100% 0%;
+    margin-right: 13px;
+    margin-top: 10px;
+}
+#infoText{
+    text-align: justify;
+    margin-right: 10px;
+}
+#link1{
+    padding: 5px;
+    font-size: 1.4em;
+
+}
+#link2{
+    border-left: 2px groove #FFFFFF;
+    
+   
+    padding: 5px;
+    font-size: 1.4em;
+}
+#link2:hover{
+    background-color: #FFFFFF;
+    cursor: pointer;
+    color: #1A0000;
+ 
+    border-radius: 25% 0% 25% 0%;
+}
+#link1:hover{
+    background-color: #FFFFFF;
+    cursor: pointer;
+    color: #1A0000;
+  
+    border-radius: 0% 25% 0% 25% ;
+}
+#logo{
+    font-size: 2em;
+    padding-left: 2%;
+    padding-top: 5px;
+    
+}
+
+#DownArrow{
+    font-size: 1.35em;
+   
+}
+#UpArrow{
+    font-size: 1.35em;
+    /* display: none; */
+}
+
+#SignIn{
+    height: 205px;
+    display: none;
+    background-color:#FFE6E6;
+    color: #000000;
+    box-shadow: #1A0000 1px 1px 5px;
+    position: absolute;
+    right: 15px;
+    top: 52px;
+    float: right;
+}
+#SignUp{
+    height: 345px;
+    display: none;
+    background-color: #FFE6E6;
+    color: #000000;
+    box-shadow: #1A0000 1px 1px 5px;
+    position: absolute;
+    right: 15px;
+    top: 52px;
+}
+.input{
+    border: 2px inset #800000;
+}
+.headerBtn{
+    border-radius: 25%;
+    background-color: #660000;
+    color: #FFFFFF;
+}
+.headerBtn:hover{
+    background-color: #1A0000;
+}
+
+
+#bottomBar{
+    bottom: 0;
+    background-color: #660000;
+    height: 50px;
+    color: #FFFFFF;
+    width: 100vw;  
+}

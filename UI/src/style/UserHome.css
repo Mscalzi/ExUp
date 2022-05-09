@@ -1,0 +1,69 @@
+#welcome{
+    background-color: #660000;
+    color:white;
+    padding: 2px;
+}
+#EXcontainer{
+    margin: auto;
+    /* background-color: crimson; */
+    border-collapse: collapse;
+    
+} 
+#EXcontainer td, #EXcontainer th {
+    border: 1px solid #ddd;
+    padding: 6px;
+    margin: auto;
+    width: 140px;
+    font-size: 1.10em;
+  }
+  
+#EXcontainer tr:nth-child(even){background-color: #fcdee0;}
+  
+#EXcontainer tr:hover {
+      background-color: #eeacb0;
+      
+    }
+#EXcontainer th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #f37c84;
+    color:#3d0b0e;
+    
+  }
+ 
+#penIcon, #xIcon, #plusSign{
+      background-color: #670a10;
+      font-size: 45px;
+      color: white;
+      padding: 0%;
+  }
+#penIcon:hover,#plusSign:hover, #xIcon:hover{
+      cursor: pointer;
+      background-color:#3d0b0e ;
+    
+  }
+
+
+#editExBox, #addExForm{
+  display: none;
+  margin: auto;
+}
+.BTN{
+  background-color: #3d0b0e;
+  color: white;
+  border-radius: 5%;
+}
+#logout{
+  color: white;
+  margin-top: 1%;
+}
+
+
+  /* 
+dark       #3d0b0e
+med/dark   #670a10
+med        #c4121e
+med/light  #f37c84
+light      #fcdee0
+ */
